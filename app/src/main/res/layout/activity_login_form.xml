@@ -30,11 +30,40 @@
       app:layout_constraintTop_toBottomOf="@id/imageView" />
 
   <View
+      android:id="@+id/formularioLogin"
       style="@style/loginFormStyle"
       android:layout_marginTop="32dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@id/textView" />
 
+  <EditText
+      android:id="@+id/inputEmail"
+      style="@style/inputLoginStyle"
+      android:hint="Email"
+      android:drawableRight="@drawable/ic_email"
+      app:layout_constraintStart_toStartOf="@id/formularioLogin"
+      app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+      app:layout_constraintTop_toTopOf="@id/formularioLogin"
+      />
 
+  <EditText
+      android:id="@+id/inputSenha"
+      style="@style/inputLoginStyle"
+      android:hint="Senha"
+      android:drawableRight="@drawable/ic_email"
+      app:layout_constraintStart_toStartOf="@id/formularioLogin"
+      app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+      app:layout_constraintTop_toBottomOf="@id/inputEmail"
+      />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/buttonStyle"
+        android:text="@string/entrar"
+        app:layout_constraintTop_toBottomOf="@id/inputSenha"
+        app:layout_constraintStart_toStartOf="@id/formularioLogin"
+        app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
