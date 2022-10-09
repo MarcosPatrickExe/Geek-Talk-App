@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+            <style name="loginFormStyle"><!--  DEFININDO NOME DA ESTILIZAÇÃO-->
+
+                        <!--   "match_parent" INDICA Q O VALOR SERÁ HERDADO DO
+                              CONTAINER-PAI DESSA VIEW, NO CASO, O "constraint layout"   -->
+                        <item name="android:layout_width" >match_parent</item>
+                        <item name="android:layout_height" >350dp</item>
+                        <item name="android:layout_margin">20dp</item>
+
+                        <!--   Importando os estilos do container do form de login do arquivo "form_container_style"   -->
+                        <item name="android:background" >@drawable/form_container_style</item>
+            </style>
+
+</resources>
