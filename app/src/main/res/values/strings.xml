@@ -2,4 +2,5 @@
     <string name="app_name">GeekTalkApp</string>
     <string name="entrar">Entrar</string>
     <string name="cadastro_login">Crie uma conta clicando aqui</string>
+    <string name="titulo"> Cadastra-se</string>
 </resources>

@@ -21,7 +21,7 @@ class LoginForm : AppCompatActivity( ) {
                this.telaCadastroTxt.setOnClickListener{
 
                        //   @Override fun onClick(view: View )  { }
-                        val intent : Intent = Intent( this,  SignUpForm::class.java )
+                        val intent : Intent = Intent( this,  SignUpForm::class.java ).apply{  }
                         super.startActivity( intent );
                }
         }
