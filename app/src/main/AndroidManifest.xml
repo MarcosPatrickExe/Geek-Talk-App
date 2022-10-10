@@ -13,6 +13,13 @@
         android:theme="@style/Theme.GeekTalkApp"
         tools:targetApi="31">
         <activity
+            android:name=".SignUpForm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".LoginForm"
             android:exported="false">
             <meta-data
