@@ -14,13 +14,14 @@
             </style>
 
 
-           <style name="inputLoginStyle">
+           <style name="inputStyle">
                         <item name="android:layout_width">match_parent</item>
                         <item name="android:layout_height">wrap_content</item>
                         <item name="android:padding">20dp </item>
                         <item name="android:layout_marginLeft">40dp </item>
                         <item name="android:layout_marginRight">40dp</item>
                         <item name="android:layout_marginTop">20dp</item>
+                        <item name="android:maxLength">25</item>
 
                         <item name="android:background">@drawable/input_form_style</item>
            </style>
