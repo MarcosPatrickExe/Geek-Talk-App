@@ -2,13 +2,15 @@ package com.mpatrick.geektalkapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.widget.Button
 import android.widget.TextView
+
 
 
 class LoginForm : AppCompatActivity( ) {
 
-        var  telaCadastroTxt: TextView  = findViewById(R.id.cria_conta_txt)
+        private val  botaoCriarConta: TextView  = findViewById(R.id.cria_conta_txt)
+        private val botaoEntrar: Button = findViewById(R.id.btn_entrar)
 
         override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState);
@@ -18,12 +20,18 @@ class LoginForm : AppCompatActivity( ) {
                 super.getSupportActionBar()?.hide();
 
 
-               this.telaCadastroTxt.setOnClickListener{
+                this.botaoEntrar.setOnClickListener{
+                        super.startActivity(
+                                         Intent(this, UserProfile::class.java)
+                        );
+                }
 
-                       //   @Override fun onClick(view: View )  { }
-                        val intent : Intent = Intent( this,  SignUpForm::class.java ).apply{  }
-                        super.startActivity( intent );
-               }
+
+                this.botaoCriarConta.setOnClickListener{
+                        super.startActivity(
+                                Intent( this,  SignUpForm::class.java ).apply{  }
+                        );
+                }
         }
 
 }
