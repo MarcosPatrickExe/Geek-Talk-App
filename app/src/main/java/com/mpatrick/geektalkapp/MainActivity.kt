@@ -11,10 +11,11 @@ class MainActivity : AppCompatActivity() {
                 super.onCreate(savedInstanceState)
                 setContentView(R.layout.activity_main)
 
+                super.getSupportActionBar()?.hide();
                 var botaoEntrar = super.findViewById<Button>(R.id.enterButton);
 
                 botaoEntrar.setOnClickListener{
-                        goToLogin();
+                        this.goToLogin();
                 }
         }
 

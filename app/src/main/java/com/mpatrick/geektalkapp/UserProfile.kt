@@ -11,9 +11,11 @@ class UserProfile : AppCompatActivity() {
                 super.onCreate(savedInstanceState)
                 setContentView(R.layout.activity_user_profile)
 
+                super.getSupportActionBar()?.hide();
 
-                val botaoSair = super.findViewById<Button>(R.id.btnLogout);
-                botaoSair.setOnClickListener{
+                val botaoDesconectar = super.findViewById<Button>(R.id.btnLogout);
+
+                botaoDesconectar.setOnClickListener{
                         super.finish();
                 }
         }

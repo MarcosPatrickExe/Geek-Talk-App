@@ -9,8 +9,15 @@ import android.widget.TextView
 
 class LoginForm : AppCompatActivity( ) {
 
-        private val  botaoCriarConta: TextView  = findViewById(R.id.cria_conta_txt)
-        private val botaoEntrar: Button = findViewById(R.id.btn_entrar)
+/*
+        private var  botaoCriarConta :TextView
+        get() = field
+        set(value){ field = value },
+
+        private var botaoEntrar : Button
+        get() = field
+        set(value){ field = value },
+*/
 
         override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState);
@@ -19,18 +26,20 @@ class LoginForm : AppCompatActivity( ) {
                 // ESCONDENDO A TOOLBAR SUPERIOR:
                 super.getSupportActionBar()?.hide();
 
+                var botaoCriarConta:TextView = findViewById<TextView>(R.id.cria_conta_txt);
+                var botaoEntrar:Button  =  findViewById<Button>(R.id.btn_entrar);
 
-                this.botaoEntrar.setOnClickListener{
+                botaoEntrar.setOnClickListener{
                         super.startActivity(
-                                         Intent(this, UserProfile::class.java)
-                        );
+                                        Intent(this, UserProfile::class.java)
+                        )
                 }
 
 
-                this.botaoCriarConta.setOnClickListener{
+                botaoCriarConta.setOnClickListener{
                         super.startActivity(
-                                Intent( this,  SignUpForm::class.java ).apply{  }
-                        );
+                                       Intent( this,  SignUpForm::class.java ) /* .apply{  } */
+                        )
                 }
         }
 
