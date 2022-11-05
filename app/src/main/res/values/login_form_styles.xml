@@ -42,11 +42,19 @@
            </style>
 
            <style name="textProfileStyle">
-                        <item name="android:layout_width">220dp</item>
-                        <item name="android:layout_height">45dp</item>
+                        <item name="android:layout_width">260dp</item>
+                        <item name="android:layout_height">50dp</item>
                         <item name="android:textSize">23sp</item>
                         <item name="android:textColor">@color/purple_200</item>
                         <item name="android:layout_marginLeft">10dp</item>
+           </style>
+
+           <style name="textProfileStyleForLandscape">
+                       <item name="android:layout_marginLeft">79dp</item>
+                        <item name="android:layout_width">370dp</item>
+                        <item name="android:layout_height">45dp</item>
+                        <item name="android:textSize">23sp</item>
+                        <item name="android:textColor">@color/purple_200</item>
            </style>
 
 

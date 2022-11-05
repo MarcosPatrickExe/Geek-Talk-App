@@ -19,26 +19,20 @@ class SignUpForm : AppCompatActivity() {
             override fun onCreate(savedInstanceState: Bundle?) {
                         // ESCONDENDO A TOOLBAR SUPERIOR:
                         super.getSupportActionBar()?.hide();
-
-
-
                         super.onCreate( savedInstanceState )
                         super.setContentView( R.layout.activity_sign_up_form )
+
+
 
                         this.viewModel = ViewModelProvider(this)
                                                                       .get( SignUpViewModel ::class.java )
 
 
+
                         super.findViewById<Button>(R.id.signUpButton).setOnClickListener{
-/*
-                              //  this.viewModel.sendUser();
-                                        Intent(this, UserProfile::class.java).apply {
-                                               this.putExtra("userNickname", viewModel.returnUser().nickname);
-                                               this.putExtra("userEmail", viewModel.returnUser().email);
-                                               this.putExtra("userPassword", viewModel.returnUser().password);
-                                        }
-                                );
- */                    }
+                                        this.viewModel.updateUser();
+                        }
+
 
                         this.setInputNicknameChangeListener();
                         this.setInputEmailChangeListener();
@@ -47,16 +41,24 @@ class SignUpForm : AppCompatActivity() {
             }
 
 
+    // OBSERVANDO A MUDANÇA DE ESTADO DA PROPRIEDADE "_userWillSend" da classe "SignUpViewModel"
+// INICIANDO ATIVIDADE/TELA DE PEFIL DO USUÁRIO
+    // "createIntentForUserProfile" É EQUIVALENTE À UMA FUNÇÃO ESTÁTICA
+
+
 
             private fun setupObserver(){
 
-                        // OBSERVANDO A MUDANÇA DE ESTADO DA PROPRIEDADE "_userWillSend" da classe "SignUpViewModel"
-                        this.viewModel.returnMutableLiveData().observe( this, Observer {
+                       this.viewModel.returnMutableLiveData().observe( this, Observer {
 
-                               super.startActivity( // INICIANDO ATIVIDADE/TELA DE PEFIL DO USUÁRIO
-
-                                       UserProfile.createIntentForUserProfile( this, it.nickname, it.email, it.password )
-                               );               // "createIntentForUserProfile" É EQUIVALENTE À UMA FUNÇÃO ESTÁTICA
+                                       super.startActivity(
+                                                   UserProfile.createIntentForUserProfile(
+                                                           this,
+                                                                            it.nickname,
+                                                                            it.email,
+                                                                            it.password
+                                                   )
+                                       );
                         })
             }
 

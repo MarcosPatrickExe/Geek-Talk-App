@@ -16,14 +16,13 @@
 
             <View
                 android:id="@+id/imageUser"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="133dp"
+                android:layout_height="132dp"
+                android:layout_marginTop="40dp"
                 android:background="@drawable/container_image_user"
-                android:layout_marginTop="80dp"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-            />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:layout_width="100dp"
@@ -37,14 +36,13 @@
 
             <View
                 android:id="@+id/infoContainer"
-                android:layout_width="match_parent"
-                android:layout_height="290dp"
+                android:layout_width="380dp"
+                android:layout_height="297dp"
                 android:layout_margin="40dp"
                 android:background="@color/purple_bg_900"
-                app:layout_constraintTop_toBottomOf="@id/imageUser"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-            />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageUser" />
 
             <ImageView
                 android:id="@+id/userIcon"
@@ -62,42 +60,45 @@
                 app:layout_constraintStart_toStartOf="@id/infoContainer"
             />
 
+
             <ImageView
                 android:id="@+id/passwordIcon"
                 style="@style/iconProfileStyle"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="40dp"
                 android:src="@drawable/ic_key"
-                app:layout_constraintTop_toBottomOf="@id/emailIcon"
                 app:layout_constraintStart_toStartOf="@id/infoContainer"
-            />
-
+                app:layout_constraintTop_toBottomOf="@id/emailIcon" />
 
             <TextView
                 android:id="@+id/userText"
                 style="@style/textProfileStyle"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="24dp"
                 android:text="\@fabiano123"
-                android:layout_marginTop="43dp"
-                app:layout_constraintTop_toTopOf="@id/infoContainer"
+                app:layout_constraintEnd_toEndOf="@+id/infoContainer"
                 app:layout_constraintLeft_toRightOf="@id/userIcon"
-            />
+                app:layout_constraintTop_toTopOf="@id/infoContainer" />
 
             <TextView
                 android:id="@+id/emailText"
                 style="@style/textProfileStyle"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="24dp"
                 android:text="\fabiano9@gmail.com"
-                android:layout_marginTop="87dp"
-                app:layout_constraintTop_toTopOf="@id/userText"
+                app:layout_constraintEnd_toEndOf="@+id/infoContainer"
                 app:layout_constraintLeft_toRightOf="@id/emailIcon"
-             />
+                app:layout_constraintTop_toBottomOf="@id/userText" />
 
             <TextView
                 android:id="@+id/passwordText"
                 style="@style/textProfileStyle"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="24dp"
                 android:text="\12232132323"
-                android:layout_marginTop="90dp"
-                app:layout_constraintTop_toTopOf="@id/emailText"
+                app:layout_constraintEnd_toEndOf="@+id/infoContainer"
                 app:layout_constraintLeft_toRightOf="@id/passwordIcon"
-            />
-
+                app:layout_constraintTop_toBottomOf="@id/emailText" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnLogout"
