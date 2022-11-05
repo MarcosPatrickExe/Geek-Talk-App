@@ -34,9 +34,9 @@
             />
 
             <EditText
-                android:id="@+id/inputNome"
+                android:id="@+id/inputNickname"
                 style="@style/inputStyle"
-                android:hint="Nome"
+                android:hint="Nickname"
                 android:inputType="text"
                 app:layout_constraintTop_toTopOf="@id/containerInputs"
                 app:layout_constraintStart_toStartOf="@id/containerInputs"
@@ -49,13 +49,13 @@
                 android:drawableRight="@drawable/ic_email"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
-                app:layout_constraintTop_toBottomOf="@id/inputNome"
+                app:layout_constraintTop_toBottomOf="@id/inputNickname"
                 app:layout_constraintStart_toStartOf="@id/containerInputs"
                 app:layout_constraintEnd_toEndOf="@id/containerInputs"
             />
 
             <EditText
-                android:id="@+id/inputSenha"
+                android:id="@+id/inputPassword"
                 style="@style/inputStyle"
                 android:drawableRight="@drawable/ic_eye"
                 android:hint="Senha"

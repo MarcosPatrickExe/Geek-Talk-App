@@ -7,7 +7,7 @@ import android.widget.TextView
 
 
 
-class LoginForm : AppCompatActivity( ) {
+class LoginForm : AppCompatActivity() {
 
 /*
         private var  botaoCriarConta :TextView
@@ -21,7 +21,7 @@ class LoginForm : AppCompatActivity( ) {
 
         override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_login_form);
+                super.setContentView(R.layout.activity_login_form);
 
                 // ESCONDENDO A TOOLBAR SUPERIOR:
                 super.getSupportActionBar()?.hide();
