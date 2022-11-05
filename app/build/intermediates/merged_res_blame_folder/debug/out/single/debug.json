@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\layout_activity_sign_up_form.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\layout\\activity_sign_up_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xhdpi_geek_chat_icon.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xhdpi\\geek_chat_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-anydpi-v26_geek_chat_icon.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-anydpi-v26\\geek_chat_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\layout-land_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\layout-land\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxhdpi_geek_chat_icon_round.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xxhdpi\\geek_chat_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_container_image_user.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\container_image_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-pngs-21:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_logo0.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\logo0.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_person_purple.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_person_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_background_gradient.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\background_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\layout_activity_login_form.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\layout\\activity_login_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_key.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_form_container_style.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\form_container_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxxhdpi_geek_chat_icon.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xxxhdpi\\geek_chat_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-anydpi-v26_geek_chat_icon_round.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-anydpi-v26\\geek_chat_icon_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xhdpi_geek_chat_icon_round.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xhdpi\\geek_chat_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-mdpi_geek_chat_icon.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-mdpi\\geek_chat_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_chat_icon.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\drawable\\chat_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxhdpi_geek_chat_icon.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xxhdpi\\geek_chat_icon.png"
+    },
+    {
+        "merged": "com.mpatrick.geektalkapp-merged_res-26:/layout_activity_user_profile.xml.flat",
+        "source": "com.mpatrick.geektalkapp-main-28:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-hdpi_geek_chat_icon.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-hdpi\\geek_chat_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-hdpi_geek_chat_icon_round.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-hdpi\\geek_chat_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-mdpi_geek_chat_icon_round.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-mdpi\\geek_chat_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_ic_email_purple.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\ic_email_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxxhdpi_geek_chat_icon_round.png.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-debug-27:\\mipmap-xxxhdpi\\geek_chat_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-merged_res-26:\\drawable_input_form_style.xml.flat",
+        "source": "C:\\Users\\Patrick\\.gradle\\daemon\\7.4\\com.mpatrick.geektalkapp-main-28:\\drawable\\input_form_style.xml"
+    }
+]

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ADICIONANDO SCROLL VIEW CASO A TELA ESTEJA DEITADA -->
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+      <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/background_gradient"
+          tools:context=".LoginForm">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="119dp"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="42dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logo0" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    android:textSize="60sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+                <View
+                    android:id="@+id/formularioLogin"
+                    style="@style/loginFormStyle"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textView" />
+
+                <EditText
+                    android:id="@+id/inputEmail"
+                    style="@style/inputStyle"
+                    android:hint="Email"
+                    android:drawableRight="@drawable/ic_email"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintStart_toStartOf="@id/formularioLogin"
+                    app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+                    app:layout_constraintTop_toTopOf="@id/formularioLogin"
+                    />
+
+                <EditText
+                    android:id="@+id/inputSenha"
+                    style="@style/inputStyle"
+                    android:hint="Senha"
+                    android:drawableRight="@drawable/ic_email"
+                    android:inputType="numberPassword"
+                    app:layout_constraintStart_toStartOf="@id/formularioLogin"
+                    app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+                    app:layout_constraintTop_toBottomOf="@id/inputEmail"
+                 />
+
+                  <androidx.appcompat.widget.AppCompatButton
+                      android:id="@+id/btn_entrar"
+                      style="@style/buttonStyle"
+                      android:text="@string/entrar"
+                      app:layout_constraintTop_toBottomOf="@id/inputSenha"
+                      app:layout_constraintStart_toStartOf="@id/formularioLogin"
+                      app:layout_constraintEnd_toEndOf="@id/formularioLogin"
+                  />
+
+                  <ProgressBar
+                      android:id="@+id/loadingIcon"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="30dp"
+                      android:visibility="invisible"
+                      android:indeterminateTint="@color/white"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintTop_toBottomOf="@id/formularioLogin"
+                   />
+
+                <TextView
+                    android:id="@+id/cria_conta_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_login"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/loadingIcon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                />
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
