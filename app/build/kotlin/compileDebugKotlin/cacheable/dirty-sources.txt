@@ -1,0 +1,5 @@
+C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\java\com\mpatrick\geektalkapp\MainActivity.kt
+C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\java\com\mpatrick\geektalkapp\UserProfile.kt
+C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\java\com\mpatrick\geektalkapp\LoginForm.kt
+C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\java\com\mpatrick\geektalkapp\SignUpForm.kt
+C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\java\com\mpatrick\geektalkapp\SignUpViewModel.kt

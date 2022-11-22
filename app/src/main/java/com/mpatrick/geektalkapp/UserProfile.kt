@@ -44,7 +44,7 @@ class UserProfile : AppCompatActivity() {
 
                         fun createIntentForUserProfile( context :Context,  nickname :String, email :String, password :String) :Intent{
 
-                                return Intent(context, UserProfile::class.java).apply {
+                                return Intent( context, UserProfile::class.java).apply {
                                         this.putExtra( key1, nickname);
                                         this.putExtra( key2, email);
                                         this.putExtra( key3, password);

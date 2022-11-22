@@ -30,94 +30,93 @@
 20-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:11:9-57
 21        android:supportsRtl="true"
 21-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.GeekTalkApp" >
-23-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:13:9-49
-24        <activity
-24-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:16:9-22:20
-25            android:name="com.mpatrick.geektalkapp.UserProfile"
-25-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:17:13-40
-26            android:exported="false" >
-26-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:18:13-37
-27            <meta-data
-27-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
-28                android:name="android.app.lib_name"
-28-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
-29                android:value="" />
-29-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
-30        </activity>
-31        <activity
-31-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:23:9-29:20
-32            android:name="com.mpatrick.geektalkapp.SignUpForm"
-32-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:24:13-39
-33            android:exported="false" >
-33-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:25:13-37
-34            <meta-data
-34-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
-35                android:name="android.app.lib_name"
-35-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
-36                android:value="" />
-36-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
-37        </activity>
-38        <activity
-38-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:30:9-36:20
-39            android:name="com.mpatrick.geektalkapp.LoginForm"
-39-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:31:13-38
-40            android:exported="false" >
-40-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:32:13-37
-41            <meta-data
-41-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
-42                android:name="android.app.lib_name"
-42-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
-43                android:value="" />
-43-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
-44        </activity>
-45        <activity
-45-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:37:9-49:20
-46            android:name="com.mpatrick.geektalkapp.MainActivity"
-46-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:38:13-41
-47            android:exported="true" >
-47-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:39:13-36
-48            <intent-filter>
-48-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:40:13-44:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:41:17-69
-49-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:41:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:43:17-77
-51-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:43:27-74
-52            </intent-filter>
-53
-54            <meta-data
-54-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
-55                android:name="android.app.lib_name"
-55-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
-56                android:value="" />
-56-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
-57        </activity>
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-61            android:authorities="com.mpatrick.geektalkapp.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-69        </provider>
-70    </application>
-71
-72</manifest>
+22        android:theme="@style/Theme.GeekTalkApp" >
+22-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:13:9-49
+23        <activity
+23-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:16:9-22:20
+24            android:name="com.mpatrick.geektalkapp.UserProfile"
+24-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:17:13-40
+25            android:exported="false" >
+25-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:18:13-37
+26            <meta-data
+26-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
+27                android:name="android.app.lib_name"
+27-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
+28                android:value="" />
+28-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
+29        </activity>
+30        <activity
+30-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:23:9-29:20
+31            android:name="com.mpatrick.geektalkapp.SignUpForm"
+31-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:24:13-39
+32            android:exported="false" >
+32-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:25:13-37
+33            <meta-data
+33-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
+35                android:value="" />
+35-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:30:9-36:20
+38            android:name="com.mpatrick.geektalkapp.LoginForm"
+38-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:31:13-38
+39            android:exported="false" >
+39-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:32:13-37
+40            <meta-data
+40-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
+42                android:value="" />
+42-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:37:9-49:20
+45            android:name="com.mpatrick.geektalkapp.MainActivity"
+45-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:38:13-41
+46            android:exported="true" >
+46-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:39:13-36
+47            <intent-filter>
+47-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:40:13-44:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:41:17-69
+48-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:41:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:43:17-77
+50-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:43:27-74
+51            </intent-filter>
+52
+53            <meta-data
+53-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:19:13-21:36
+54                android:name="android.app.lib_name"
+54-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:20:17-52
+55                android:value="" />
+55-->C:\Users\Patrick\AndroidStudioProjects\GeekTalkApp\app\src\main\AndroidManifest.xml:21:17-33
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+60            android:authorities="com.mpatrick.geektalkapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick\.gradle\caches\transforms-3\6aeb111524da2a17bbaeb94df1a3a9c2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick\.gradle\caches\transforms-3\e43051e300a45fe76e022983ab19a1cb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

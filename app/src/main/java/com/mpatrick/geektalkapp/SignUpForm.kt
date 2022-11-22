@@ -2,10 +2,14 @@ package com.mpatrick.geektalkapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.core.widget.addTextChangedListener
+import androidx.core.widget.doAfterTextChanged
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 
@@ -29,9 +33,20 @@ class SignUpForm : AppCompatActivity() {
 
 
 
-                        super.findViewById<Button>(R.id.signUpButton).setOnClickListener{
+                        super.findViewById<Button>( R.id.signUpButton ).setOnClickListener{
                                         this.viewModel.updateUser();
                         }
+
+                        super.findViewById<Button>( R.id.signUpButton ).setOnClickListener( View.OnClickListener{ it :View ->
+                                this.viewModel.updateUser();
+                        })
+                                                                                                                                            // "object" SOMENTE EH NECESSÁRIO PARA SOBRE-ESCREVER UM OU MAIS MÉTODO DE UMA INTERFACE
+                        super.findViewById<Button>( R.id.signUpButton ).setOnClickListener( object :View.OnClickListener{
+                                override fun onClick( v: View?) {
+                                         viewModel.updateUser();
+                                }
+                        })
+
 
 
                         this.setInputNicknameChangeListener();
@@ -49,7 +64,7 @@ class SignUpForm : AppCompatActivity() {
 
             private fun setupObserver(){
 
-                       this.viewModel.returnMutableLiveData().observe( this, Observer {
+                       this.viewModel.returnMutableLiveData().observe( this, Observer { it :User ->  //it :User!
 
                                        super.startActivity(
                                                    UserProfile.createIntentForUserProfile(
@@ -85,10 +100,18 @@ class SignUpForm : AppCompatActivity() {
 
             private fun setInputPasswordChangeListener(){
 
-                    super.findViewById<Button>(R.id.inputPassword).addTextChangedListener {
-                            this.viewModel.inputPassword(
-                                       super.findViewById<EditText>(R.id.inputPassword).text.toString()
-                            )
-                    }
+                    super.findViewById<Button>(R.id.inputPassword).addTextChangedListener (  object :TextWatcher{
+                            override  fun  beforeTextChanged(v1 :CharSequence,  v2 :Int,  v3 :Int,   v4 :Int){
+                            }
+
+                            override fun  onTextChanged(v1 :CharSequence,  v2 :Int,  v3 :Int,   v4 :Int){
+                            }
+
+                            override fun  afterTextChanged( v1 : Editable){
+                                   viewModel.inputPassword(
+                                                findViewById<EditText>(R.id.inputPassword).text.toString()
+                                    )
+                            }
+                    })
             }
 }
